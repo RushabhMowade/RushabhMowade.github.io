@@ -65,7 +65,7 @@
         .container {
             max-width: 1000px;
             margin: 0 auto;
-            padding: 80px 20px 40px 20px; /* top padding for navbar */
+            padding: 80px 20px 40px 20px;
         }
         section {
             padding: 40px 24px;
@@ -234,7 +234,6 @@
     </style>
 </head>
 <body>
-    <!-- Navbar with buttons to sections -->
     <nav class="navbar">
         <div class="nav-brand">RM / Portfolio</div>
         <div class="nav-links">
@@ -248,17 +247,15 @@
     </nav>
 
     <div class="container">
-        <!-- Hero / About -->
         <section id="hero">
             <div>
                 <div class="pill">Computer Science (Data Science) · B.Tech · 8.84 CGPA</div>
                 <h1 class="hero-title">Hi, I’m <span style="color:#bfdbfe;">Rushabh Mowade</span></h1>
                 <p class="hero-sub">
-                    Nagpur-based data science student, building machine learning, NLP, and BI projects end-to-end.
+                    Computer Science (Data Science) undergraduate with hands-on experience in machine learning, deep learning, and model evaluation.
                 </p>
                 <p style="margin-top:10px; font-size:0.9rem;">
-                    I enjoy turning raw data into useful insights and products – from feature engineering and modeling
-                    to model evaluation and dashboarding.
+                    I specialize in building end-to-end ML pipelines using real-world data, including multimodal features and performance-driven optimization.
                 </p>
                 <div class="hero-buttons">
                     <a href="#projects" class="btn btn-primary">View projects</a>
@@ -267,7 +264,7 @@
                 </div>
             </div>
             <div class="hero-right">
-                <p><strong>Location:</strong> Nagpur, India 440009</p>
+                <p><strong>Location:</strong> Nagpur, India</p>
                 <p><strong>Email:</strong> <a href="mailto:rushabhmwd@gmail.com" style="color:#e5e7eb;">rushabhmwd@gmail.com</a></p>
                 <p><strong>Phone:</strong> <a href="tel:+917972719697" style="color:#e5e7eb;">+91 79727 19697</a></p>
                 <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/rushabhmwd" target="_blank" style="color:#e5e7eb;">linkedin.com/in/rushabhmwd</a></p>
@@ -275,103 +272,107 @@
             </div>
         </section>
 
-        <!-- Education -->
         <section id="education">
             <h2>Education</h2>
             <h3>B.Tech – Computer Science (Data Science)</h3>
             <p>Shri Ramdeobaba College of Engineering and Management</p>
-            <p>CGPA: 8.84 · Expected Graduation: Jan 2027</p>
+            <p>CGPA: 8.84 · Expected: Jan 2027</p>
         </section>
 
-        <!-- Skills -->
         <section id="skills">
             <h2>Technical Skills</h2>
             <div class="skills-grid">
                 <div class="skill-card">
                     <div class="skill-title">Languages</div>
                     <ul>
-                        <li>Python</li>
-                        <li>Java</li>
-                        <li>C</li>
-                        <li>SQL</li>
+                        <li>Python, Java</li>
+                        <li>C, SQL, OOPS</li>
                     </ul>
                 </div>
                 <div class="skill-card">
                     <div class="skill-title">Machine Learning</div>
                     <ul>
-                        <li>Regression</li>
-                        <li>Neural Networks</li>
-                        <li>CNNs</li>
+                        <li>Classification, Regression</li>
+                        <li>Neural Networks, CNNs</li>
                         <li>Gradient Descent</li>
                     </ul>
                 </div>
                 <div class="skill-card">
                     <div class="skill-title">Libraries & Frameworks</div>
                     <ul>
-                        <li>NumPy, Pandas</li>
-                        <li>Scikit-learn</li>
+                        <li>NumPy, Pandas, Scikit-learn</li>
                         <li>TensorFlow, Keras</li>
                     </ul>
                 </div>
                 <div class="skill-card">
-                    <div class="skill-title">Data & BI</div>
+                    <div class="skill-title">Tools</div>
                     <ul>
                         <li>Power BI</li>
-                        <li>Tableau</li>
+                        <li>Git, Jupyter, VS Code</li>
+                        <li>Render</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <!-- Projects -->
         <section id="projects">
             <h2>Projects</h2>
+            
             <div class="project">
                 <div class="project-header">
-                    <div class="project-title">Sales Forecasting — Time Series Model</div>
-                    <div class="project-tag">Python · ARIMA · Prophet · Dash</div>
+                    <div class="project-title">Amazon ML Challenge 2025 - Product Price Prediction</div>
+                    <div class="project-tag">Python · LightGBM · TF-IDF · ResNet</div>
                 </div>
+                <p>Built an end-to-end multimodal pipeline extracting 2048-D image embeddings and text features to predict prices, evaluated via SMAPE.</p>
                 <p class="project-links"> 
-                    <a href="https://github.com/RushabhMowade/sales-forecasting" target="_blank">Repository</a>
-                    <a href="#" target="_blank">Live demo</a>
+                    <a href="https://github.com/RushabhMowade/Amazon-ML-Challenge-2025" target="_blank">View Repository</a>
                 </p>
             </div>
 
             <div class="project">
                 <div class="project-header">
-                    <div class="project-title">NLP Resume Parser</div>
-                    <div class="project-tag">Python · spaCy · NER</div>
+                    <div class="project-title">Dialogue Summarization using FLAN-T5</div>
+                    <div class="project-tag">NLP · LLMs · FLAN-T5 · ROUGE</div>
                 </div>
+                <p>Developed an abstractive system fine-tuned on multi-turn conversations to generate context-aware summaries using ROUGE metrics.</p>
                 <p class="project-links"> 
-                    <a href="https://github.com/RushabhMowade/resume-parser" target="_blank">Repository</a>
+                    <a href="https://github.com/RushabhMowade/Dialogue_Summarization_using_FLAN_T5" target="_blank">View Repository</a>
+                </p>
+            </div>
+
+            <div class="project">
+                <div class="project-header">
+                    <div class="project-title">Image Compression using K-Means</div>
+                    <div class="project-tag">Python · Unsupervised Learning · Scikit-learn</div>
+                </div>
+                <p>Applied K-Means clustering algorithm to reduce image size by limiting the color palette while maintaining visual integrity.</p>
+                <p class="project-links"> 
+                    <a href="https://github.com/RushabhMowade/Image-Compression-using-K-Means-Algorithm" target="_blank">View Repository</a>
                 </p>
             </div>
         </section>
 
-        <!-- Certifications -->
         <section id="certifications">
             <h2>Certifications</h2>
             <div class="chips">
-                <div class="chip">IBM Data Science Professional Certificate</div>
-                <div class="chip">Google Data Analytics</div>
-                <div class="chip">DeepLearning.AI TensorFlow Developer</div>
+                <div class="chip">Machine Learning Specialization - DeepLearning.AI</div>
+                <div class="chip">Generative AI with LLMs - DeepLearning.AI</div>
+                <div class="chip">Programming in Python - Meta</div>
             </div>
         </section>
 
-        <!-- Achievements -->
         <section id="achievements">
             <h2>Achievements</h2>
             <ul>
-                <li>1st place — Inter-college hackathon (DataViz challenge)</li>
-                <li>Dean's list — 2024 (Academic excellence)</li>
-                <li>Published a paper on sentiment analysis in a student journal</li>
+                <li>Solved 300+ algorithmic problems on LeetCode, CodeChef, GFG, and HackerRank.</li>
+                <li>Maintained a consistent CGPA of 8.84 across all semesters.</li>
+                <li>Proficient in Data Structures, optimization techniques, and algorithm design.</li>
             </ul>
         </section>
 
         <footer>
-            © 2026 Rushabh Mowade · Built with HTML & CSS
+            © 2026 Rushabh Mowade · Data Science Portfolio
         </footer>
     </div>
-
 </body>
 </html>
